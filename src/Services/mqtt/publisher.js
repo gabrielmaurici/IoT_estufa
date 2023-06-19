@@ -1,4 +1,4 @@
-const utils = require('../Utils/utils');
+const utils = require('../../Utils/utils');
 const mqtt = require('mqtt');
 
 var client = new mqtt.connect('mqtt://localhost:1883');
